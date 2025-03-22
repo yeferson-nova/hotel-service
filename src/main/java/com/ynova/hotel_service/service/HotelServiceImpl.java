@@ -2,8 +2,10 @@ package com.ynova.hotel_service.service;
 
 import java.util.List;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 
 import com.ynova.hotel_service.entity.Hotel;
 import com.ynova.hotel_service.exceptions.ResourceNotFoudException;
@@ -11,6 +13,11 @@ import com.ynova.hotel_service.repository.HotelRepository;
 
 @Service
 public class HotelServiceImpl implements HotelService {
+
+    /*private Logger loggee = LoggerFactory.getLogger(UsuarioService.class);
+
+    @Autowired
+    private RestTemplate restTemplate;*/
 
     private final HotelRepository hotelRepository;
 
